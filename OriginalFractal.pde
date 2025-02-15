@@ -4,7 +4,7 @@ void setup() {
 
 void draw() {
   background(255);
-  translate(width/2, height/10);
+  translate(width/2, height/8.5);
   rotate(PI/4); 
   kochFractal(550, 5);
   strokeWeight(1);
